@@ -24,3 +24,7 @@ const navigator = createStackNavigator(
 );
 
 export default createAppContainer(navigator);
+
+//props are not limited to items we pass down, in react we can both pass props in or recieve in to a component we create
+//props = configuration options
+//stack navigator passes props to each of our components
