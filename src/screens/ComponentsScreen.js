@@ -10,6 +10,7 @@ const ComponentsScreen = () => {
     <View>
       <Text style={styles.textStyle}>Getting started with React Native</Text>
       <Text style={styles.nameTag}>My name is {myName}</Text>
+      <Text style={styles.nameTag}>But people call me {myName}</Text>
     </View>
     //jsx looks a lot like html and tells the browser what we want to see on the screen, not technically valid javascript, uses Babel to compile and convert into plain javascript
     //<Text> is a primitive react element, used to show some basic text to a user
